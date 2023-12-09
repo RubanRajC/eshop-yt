@@ -1,0 +1,16 @@
+Environtmental variable 
+Normaly used as public variable can be accesed any where from the folder in nodejs
+npm i dotenv
+require ('dotenv/config')
+
+Basic api:
+npm i body-parser
+    It is used to understand the json data to node.js that we are getting from the front end
+    It is middleware
+    app.use(bodyParser.json())
+
+npm i morgan
+    It is used to show the time of the request it takes
+
+npm i bcryptjs
+    it used to encripit the password 
